@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <story>
-    <scene id="1">
-        <title>Test1</title>
-        <text>
-            Vou testar umas coisas
-        </text>
-        <image name="deadpool2"/>
-        <options>
-            <option scene="2">Sim</option>
-            <option scene="2">Não</option>
-        </options>
-    </scene>
-    <scene id="2">
-        <title>Test2</title>
-        <text>
-            Game Over. You Died
-        </text>
-        <image name="deadpool"/>
-        <options>
-            <option scene="end">End</option>
-        </options>
-    </scene>
+  <scene id="1">
+    <title>Test1</title>
+    <text>
+      Vou testar umas coisas
+    </text>
+    <image name="deadpool2"/>
+    <options>
+      <option scene="2">Sim</option>
+      <option scene="2">Não</option>
+    </options>
+  </scene>
+  <scene id="2">
+    <title>Test2</title>
+    <text>
+      Game Over. You Died
+    </text>
+    <image name="deadpool"/>
+    <options>
+      <option scene="end">End</option>
+    </options>
+  </scene>
 </story>

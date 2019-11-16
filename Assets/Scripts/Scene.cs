@@ -19,7 +19,14 @@ public class Scene
         XmlNodeList childs = node.ChildNodes;
         if(childs[0].Name == "title")
         {
-            this.title=childs[0].FirstChild.Value;
+            try
+            {
+                this.title = childs[0].FirstChild.Value;
+            }
+            catch (Exception e)
+            {
+                this.title = "";
+            }
         }
         else
         {
@@ -27,7 +34,14 @@ public class Scene
         }
         if (childs[1].Name == "text")
         {
-            this.text = childs[1].FirstChild.Value;
+            try
+            {
+                this.text = childs[1].FirstChild.Value;
+            }
+            catch(Exception e)
+            {
+                this.text = "";
+            }
         }
         else
         {
@@ -51,7 +65,7 @@ public class Scene
         if (childs[3].Name == "options")
         {
             if(childs[3].ChildNodes.Count == 0)
-                throw new ParsingError("options must have option");
+                this.options.Add(new Option());
             foreach (XmlNode option_node in childs[3].ChildNodes)
             {
                 if(option_node.Name == "option")
@@ -121,6 +135,11 @@ public class Scene
                 throw new ParsingError("option must have atribute scene");
             }
             this.text = node.FirstChild.Value;
+        }
+        public Option()
+        {
+            this.to_scene = "end";
+            this.text = "End";
         }
 
         public string toScene()

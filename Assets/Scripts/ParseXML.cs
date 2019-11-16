@@ -115,20 +115,20 @@ public class ParseXML : MonoBehaviour
         }
     }
 
-    public float delay = 0.2f;
+    public float delay;
 
 
     private IEnumerator showText(int index)
     {
-        for(int i=0;i<=full_text.Length;i++)
+        for (int i = 0; i <= full_text.Length; i++)
         {
             current_text = full_text.Substring(0, i);
             this.uiText.text = current_text;
-            if(i%2==0 && current_menu==0)
+            if(full_text.Length!=0 && i != full_text.Length && full_text[i] != ' ')
                 letterSound.Play();
             yield return new WaitForSeconds(delay);
         }
-        if(this.uiText.text == full_text)
+        if (this.uiText.text == full_text)
         {
             int options_size = storyList[index].OptionsSize();
             if (options_size >= 1)
