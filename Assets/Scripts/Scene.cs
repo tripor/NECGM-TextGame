@@ -85,6 +85,11 @@ public class Scene
         return this.options[index];
     }
 
+    public int OptionsSize()
+    {
+        return this.options.Count;
+    }
+
     public List<Option> GetOptions()
     {
         return this.options;

@@ -19,7 +19,6 @@
         <image name="deadpool"/>
         <options>
             <option scene="end">End</option>
-            <option scene="end">End</option>
         </options>
     </scene>
 </story>
