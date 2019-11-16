@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<story>
+    <scene id="1">
+        <title>30Out</title>
+        <text>
+            
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="2">...</option>
+        </options>
+    </scene>
+    <scene id="2">
+        <title>Intro2</title>
+        <text>
+            The streets are already decorated for Halloween... the trees are shedding their leaves and it's quite cold. 
+        </text>
+        <image name="deadpool"/>
+        <options>
+            <option scene="3">...</option>
+        </options>
+	</scene>
+	<scene id="3">
+        <title>Quarto John acorda</title>
+        <text>
+            John wakes up with his mother calling his name from downstairs. Today is grandma Maggie's birthday and they are going to lunch at her house.
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="4">Check poster</option>
+			<option scene="5">Leaves bedroom</option>
+        </options>
+    </scene>
+	<scene id="4">
+        <title>Poster hint1</title>
+        <text>
+            John observes the poster.
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="5">Leaves bedroom</option>
+        </options>
+    </scene>
+	<scene id="5">
+        <title>Downstairs</title>
+        <text>
+            After getting ready, John goes down the stairs and sees his puppy Bucky waiting happily for him. The main house door is wide open and John can see his parents and little sister waiting next to the door for him. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="6">Goes to the car</option>
+        </options>
+    </scene>
+	<scene id="6">
+        <title>Shop</title>
+        <text>
+            Already driving to grandma Maggie's house, John's dad remembers that they forgot her birthday gift. They see a little antiques shop and stop to go inside it. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="7">...</option>
+        </options>
+    </scene>
+	<scene id="7">
+        <title>Inside the shop</title>
+        <text>
+            They enter the shop. It's mysterious, gloomy, quite dark and full of stuff. Behind the counter, there's a small old lady with long white hair and a long purple old looking dress. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="9">Look around</option>
+			<option scene="8">Listen to the radio</option>
+        </options>
+    </scene>
+	<scene id="8">
+        <title>Radio</title>
+        <text>
+     
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="9">Look around</option>
+        </options>
+    </scene>
+	<scene id="9">
+        <title>Box</title>
+        <text>
+            John loves new gadgets and building things. He starts looking around and touching some stuff. He sees a shinny golden box that seems like it's calling his attention strongly. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="10">Open the box</option>
+			<option scene="12">Buy the box</option>
+        </options>
+    </scene>
+	<scene id="10">
+        <title>Open Box</title>
+        <text>
+            John opens the box. There's only a bright green sticky hand toy inside it. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="11">Buy the box and the toy</option>
+        </options>
+    </scene>
+	<scene id="11">
+        <title>Later1</title>
+        <text>
+     
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="14">...</option>
+        </options>
+    </scene>
+	<scene id="12">
+        <title>Later2</title>
+        <text>
+		John arrives home and puts the box on the entrance little table. While he's hanging his coat he hears some weird noises coming from it. Curious he approaches it... 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="13">Open the box</option>
+        </options>
+    </scene>
+	<scene id="13">
+        <title>Opensv2</title>
+        <text>
+		John opens the box. There's only a bright green sticky hand toy inside it.
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="14">Goes to garage</option>
+        </options>
+    </scene>
+	<scene id="14">
+        <title>Garage</title>
+        <text>
+		Already at home John goes to the garage to finish building his science project for school. His dad is a science university teacher and sometimes he uses his tools to work on some school projects and other gadgets, since he loves everything related. He puts the sticky hand toy on the edge of the table. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="15">Look at the bottles</option>
+			<option scene="16">Start working on the science project</option>
+        </options>
+    </scene>
+	<scene id="15">
+        <title>Hint2</title>
+        <text>
+		John looks at the bottles on top of the table. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="16">Start working on the science project</option>
+        </options>
+    </scene>
+	<scene id="16">
+        <title></title>
+        <text>
+		While working, John accidentally spills one of his dad work bottles on top of the table. Meanwhile, Suzie says mom is calling them to sleep. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="17">Goes to sleep</option>
+        </options>
+    </scene>
+	<scene id="17">
+        <title>31 Morning</title>
+        <text>
+     
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="18">...</option>
+        </options>
+    </scene>
+	<scene id="18">
+        <title>School closed</title>
+        <text>
+		The school is closed and all families are getting ready for the Halloween night. All the neighbourhood houses are decorated and John's too. His mom is preparing all the sweets to welcome the children that visit their home. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="19">John goes down to the garage to get a box full of Halloween costumes</option>
+        </options>
+    </scene>
+	<scene id="19">
+        <title>John garage 2</title>
+        <text>
+		While John is looking for the box, he hears some weird noises coming from below the car. Curious, he approaches it and peeks under it, but what he sees... is a black shadow and some red bright enormous eyes looking through his own. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="20">Closes his eyes and screams</option>
+			<option scene="21">Runs upstairs and calls his parents</option>
+			<option scene="40">Look more closely</option
+        </options>
+	</scene>
+	<scene id="40">
+        <title></title>
+        <text>
+		John looks more closely, he's pulled under the car... everything hurts and it feels cold...
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="99">...</option>
+        </options>
+    </scene>
+	<scene id="20">
+        <title>parents garagev1</title>
+        <text>
+		Alarmed, John parents and Suzy run downstairs to see what's happening. Downstairs, his parents think he's only being a child and a scarycat because of the halloween feeling. His dad gets upset because the table is destroyed, since John left the acid he dropped on the table all night without cleaning it. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="22">Look around</option>
+			<option scene="23">Grab the sticky hand toy and go upstairs with parents</option>
+        </options>
+    </scene>
+	</scene>
+	<scene id="21">
+        <title>parents garage2</title>
+        <text>
+		After John scared badly explained what he saw, he and his parents go downstairs to check what's happening. Downstairs his parents think he's only being a child and a scarycat because of the halloween feeling. His dad get upset because the table is destroyd since John left the acid he dropped on the table all night without cleaning it. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="22">Look around</option>
+			<option scene="23">Grab the sticky hand toy and go upstairs with parents</option>
+        </options>
+    </scene>
+	</scene>
+	<scene id="22">
+        <title>investigate</title>
+        <text>
+		John looks around... he notices the sticky hand is no longer on the table and there's a thin trail of a green substance going from the table to the car... he looks under it and the shadow isn't there anymore and there's only his sticky hand there... "So weird..." John thinks. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="23">Grab the sticky hand toy and go upstairs with parents</option>
+        </options>
+    </scene>
+	</scene>
+		<scene id="23">
+        <title>upstairs</title>
+        <text>
+		John feels confused... Meanwhile, his parents go grocery shopping and leave him to take care of his little sister Suzie that's watching Backstreet Boys on tv. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="24">Go upstairs</option>
+        </options>
+    </scene>
+	</scene>
+	<scene id="24">
+        <title>bedroom</title>
+        <text>
+		John arrives to his room and puts the sticky hand on his bed. His two best friends are going to his house to spend Halloween night and play Sega Saturn. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="25">Get ready dressing halloween costume</option>
+        </options>
+    </scene>
+	</scene>
+	<scene id="25">
+        <title>stickymonster not in bed</title>
+        <text>
+		After getting ready, he notices that the sticky hand is no longer on his bed. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="26">Ask Suzie for it</option>
+			<option scene="27">Search around</option
+        </options>
+	</scene>
+	<scene id="26">
+        <title>Suzie</title>
+        <text>
+		John meets his sister downstairs and confronts her about the sticky hand, but she says that she didn't move it and she was watching tv. The truth is that he didn't hear her coming upstairs, anyway... He believes her. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="29">Go upstairs to look with Suzie </option>
+        </options>
+	</scene>
+	<scene id="27">
+        <title>Search around</title>
+        <text>
+		John notices his hamster cage is empty.
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="28">Search for hamster</option>
+        </options>
+	</scene>
+	<scene id="28">
+        <title>Dead Hamster</title>
+        <text>
+		John searches and sees blood drops towards his closet. He opens it and... he finds his sticky hand in a dark corner with small pieces of bloody hamster fur.		
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="31">Run and phone friends</option>
+        </options>
+	</scene>
+<scene id="29">
+        <title>Search around2</title>
+        <text>
+		Suzie notices his brother's hamster cage is empty and tells John.
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="30">Search for hamster</option>
+        </options>
+	</scene>
+	<scene id="30">
+        <title>Dead Hamster2</title>
+        <text>
+		John searches and sees blood drops towards his closet. Suzie opens it and... she finds his brother's sticky hand in a dark corner with small pieces of bloody hamster fur and screams.		
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="31">Both run and phone friends</option>
+        </options>
+	</scene>
+	<scene id="31">
+        <title>Friends</title>
+        <text>
+			When his friends arrive, they go upstairs to check the room, but can't find the sticky hand. However, the window is broken. They run outside.
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="33">Get the bike and search</option>
+			<option scene="32">Look at the newspaper on the porch</option>
+        </options>
+	</scene>
+	<scene id="32">
+        <title>Newspaper</title>
+        <text>
+			
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="33">Get the bike and search</option>
+        </options>
+	</scene>
+	<scene id="33">
+        <title></title>
+        <text>
+			The three friends, Suzie and their puppy Bucky go after the sticky hand. It is already dark and the streets are full of disguised people. They hear a neighbour's dog was killed by a wild animal some minutes ago. They go investigate and find hints to...
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="34">Abandoned house</option>
+			<option scene="35">Graveyard</option>
+			<option scene="36">School</option>
+        </options>
+	</scene>
+	<scene id="34">
+        <title>Abandoned house</title>
+        <text>
+			They arrive to the abandoned house. It's dark, stinky and full of garbage. They follow traces of blood and the green substance in the basement. They find the sticky hand... It's big and has red eyes. It starts to morph into a creepy hand with pointy nails in their direction and, in seconds, the children and puppy get eaten.
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="37">...</option>
+        </options>
+	</scene>
+	<scene id="35">
+        <title>Graveyard</title>
+        <text>
+			They arrive into the village's graveyard. It's cold and foggy. They follow traces of blood and the green substance in the basement. They find the sticky hand... It's big and has red eyes. It starts to morph into a creepy hand with pointy nails in their direction... John wakes up to his mom calling... It's his grandma´s Maggie birthday.   
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="38">...</option>
+        </options>
+    </scene>
+	<scene id="36">
+        <title>School</title>
+        <text>
+		They arrive to the school. It's dark and quiet. They follow traces of blood and the green substance in the basement. They find the sticky hand... It's big and has red eyes. It starts to morph into a creepy hand with pointy nails in their direction... They attack it and it starts getting weaker... Bucky jumps in and eats it. 
+        </text>
+        <image name=""/>
+        <options>
+            <option scene="39">...</option>
+        </options>
+    </scene>
+	<scene id="37">
+        <title></title>
+        <text>
+     
+        </text>
+        <image name=""/>
+        <options>
+        </options>
+    </scene>
+	<scene id="38">
+        <title></title>
+        <text>
+     
+        </text>
+        <image name=""/>
+        <options>
+        </options>
+    </scene>
+	<scene id="39">
+        <title></title>
+        <text>
+     
+        </text>
+        <image name=""/>
+        <options>
+        </options>
+    </scene>
+	<scene id="99">
+        <title></title>
+        <text>
+     
+        </text>
+        <image name=""/>
+        <options>
+        </options>
+    </scene>
+</story>
+	
