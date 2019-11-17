@@ -251,7 +251,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &44466844
 RectTransform:
   m_ObjectHideFlags: 0
@@ -549,7 +549,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.49995, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -754,8 +754,8 @@ RectTransform:
   m_Father: {fileID: 1031901018}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.49995, y: 0}
+  m_AnchorMax: {x: 0.49995, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1250,7 +1250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d446a4a0144fbee47be76ff7a43c0695, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xmlRawFile: {fileID: 4900000, guid: b02124c2cd596dc4d927dd8817f69a64, type: 3}
+  xmlRawFile: {fileID: 4900000, guid: 1a4cab84207add74aa1a5798d8d74889, type: 3}
   uiText: {fileID: 618334693}
   image: {fileID: 1133281078}
   ButtonA: {fileID: 1395069971}
@@ -1262,7 +1262,7 @@ MonoBehaviour:
   letterSound: {fileID: 1004487187}
   buttonSound: {fileID: 170057689}
   slider: {fileID: 1049581971}
-  delay: 0.1
+  delay: 0.05
   mixer: {fileID: 24100000, guid: 2b0fcc9f027c81b408bb7c5118218498, type: 2}
 --- !u!1 &954342357
 GameObject:
@@ -1321,10 +1321,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: cb97b1951e3eb1c4ebae7f6ed35421b8, type: 3}
-    m_FontSize: 37
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 42
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1398,7 +1398,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: cb97b1951e3eb1c4ebae7f6ed35421b8, type: 3}
-    m_FontSize: 37
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -1817,10 +1817,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: cb97b1951e3eb1c4ebae7f6ed35421b8, type: 3}
-    m_FontSize: 37
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 42
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1994,7 +1994,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 2b0fcc9f027c81b408bb7c5118218498,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: afa5b6a86066d9c44880e8937d73ac06, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 070c1e24fa8ff334ab5baad0126dc6cf, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2450,7 +2450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1622609369
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2743,7 +2743,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: cb97b1951e3eb1c4ebae7f6ed35421b8, type: 3}
-    m_FontSize: 37
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
