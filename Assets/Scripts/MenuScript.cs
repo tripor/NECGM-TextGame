@@ -11,6 +11,7 @@ public class MenuScript : MonoBehaviour
     private int current_menu;
     public GameObject MenuScreen;
     public GameObject AudioScreen;
+    public Text loading;
 
 
     public AudioMixer mixer;
@@ -18,6 +19,7 @@ public class MenuScript : MonoBehaviour
 
     void Start()
     {
+        this.loading.gameObject.SetActive(false);
         slider.value = ParseXML.volume;
         mixer.SetFloat("MusicVolume", Mathf.Log10(ParseXML.volume) * 20);
         this.current_menu = 0;
@@ -44,6 +46,7 @@ public class MenuScript : MonoBehaviour
     }
     public void PlayGame()
     {
+        this.loading.gameObject.SetActive(true);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     public void ExitGame()
