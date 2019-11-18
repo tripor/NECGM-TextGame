@@ -23,7 +23,7 @@ public class Scene
             {
                 this.title = childs[0].FirstChild.Value;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 this.title = "";
             }
@@ -38,7 +38,7 @@ public class Scene
             {
                 this.text = childs[1].FirstChild.Value;
             }
-            catch(Exception e)
+            catch(Exception)
             {
                 this.text = "";
             }
